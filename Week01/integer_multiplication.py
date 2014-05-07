@@ -25,7 +25,7 @@ a = random.randint(2**2048,2**2049)
 b = random.randint(2**2048,2**2049)
 print "Random multiplication: " + str(schoolMultiplication(a,b))
 '''
-
+import timeit
 def KaratsubaMultiplication(number1,number2):
 
     if number2 > number1:
